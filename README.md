@@ -1,3 +1,4 @@
+
 # 👁️ EyeDentify – Blink-Secured Iris Authentication & Attendance System
 
 A lightweight, privacy-aware iris recognition system that uses **blinking** as a liveness check. Built with **PyTorch**, **MediaPipe**, and **OpenCV**, EyeDentify prevents spoofing (e.g., photos) and logs attendance **only when a real, live person is detected**.
@@ -24,17 +25,36 @@ git clone https://github.com/your-username/EyeDentify-Biometeric-Authentication-
 cd EyeDentify-Biometeric-Authentication-Attendance-System
 ```
 
-### 🧪 Step 2: Install Dependencies
+---
+
+### 🧰 Step 1.5 (Required for First-Time Setup): Create a Virtual Environment & Install Dependencies
+
+We recommend using a virtual environment to keep dependencies clean and isolated.
+
+#### 🪟 On Windows:
 
 ```bash
-pip install -r requirements.txt
+python -m venv venu
+.enu\Scriptsctivate
 ```
 
-If you don’t have a `requirements.txt` file, you can manually install:
+#### 🐧 On macOS/Linux:
+
+```bash
+python3 -m venv venu
+source venu/bin/activate
+```
+
+---
+
+### 📦 Install Dependencies Manually
 
 ```bash
 pip install opencv-python mediapipe torch torchvision numpy
 ```
+
+> ✅ You only need to run this once after creating the environment.  
+> ⚠️ Make sure the virtual environment is activated **every time you run the project** (`(venu)` should appear in your terminal).
 
 ---
 
@@ -145,7 +165,6 @@ sarah, 2025-05-29 09:14 AM
 ├── train_model.py               # Train model on enrolled users
 ├── predict_live_with_blink.py  # Live auth with blink detection
 ├── README.md
-└── requirements.txt
 ```
 
 ---
@@ -176,8 +195,6 @@ sarah, 2025-05-29 09:14 AM
 
 **Built with love by Mohamed Gamal (Jimmy)**  
 🛡️ Cybersecurity Invoker
-
-
 
 ---
 

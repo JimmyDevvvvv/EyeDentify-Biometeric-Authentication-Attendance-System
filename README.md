@@ -44,4 +44,5 @@ git clone https://github.com/your-username/EyeDentify-Biometric-Authentication-A
 cd EyeDentify-Biometric-Authentication-Attendance-System
 
 
-### 🧪 Step 2: Install Dependencies
+
+### ✅ Prerequisitessadadasds

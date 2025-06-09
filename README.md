@@ -35,7 +35,7 @@ We recommend using a virtual environment to keep dependencies clean and isolated
 
 ```bash
 python -m venv venu
-.enu\Scriptsctivate
+.\venu\Scripts\activate
 ```
 
 #### 🐧 On macOS/Linux:
